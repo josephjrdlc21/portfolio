@@ -24,26 +24,6 @@ const projects = [
     githubLink: "https://github.com/seraprogrammer/portfolio",
     liveLink: "https://codervai.vercel.app",
   },
-  {
-    title: "🚀 CodeWhisperer",
-    description:
-      "🚀 CodeWhisperer A powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-    src: "water.jpg",
-    link: "https://i.postimg.cc/J4jPVFY0/Annotation-2025-04-01-204723.png",
-    color: "#fff",
-    githubLink: "https://github.com/seraprogrammer/codewhisperer",
-    liveLink: "https://codewhisperer.vercel.app/",
-  },
-  {
-    title: "CodeKori 🔥",
-    description:
-      "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-    src: "house.jpg",
-    link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
-    color: "#ed649e",
-    githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
-  },
 ];
 
 export default function Projects() {
@@ -100,7 +80,7 @@ export default function Projects() {
   return (
     <ReactLenis root>
       <main className="bg-black" ref={container}>
-        <section className="text-white w-full bg-slate-950">
+        <section className="text-white w-full bg-[#121212]">
           {projects.map((project, i) => {
             const targetScale = 1 - (projects.length - i) * 0.05;
             return (

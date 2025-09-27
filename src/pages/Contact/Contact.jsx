@@ -88,7 +88,7 @@ export default function Contact() {
 
   return (
     <main
-      className="pt-20 lg:pt-[0rem] bg-[#04081A]
+      className="pt-20 lg:pt-[0rem] bg-[#121212]
  text-white min-h-screen"
     >
       <section className="hero min-h-screen flex items-center relative px-4 sm:px-6 lg:px-8">
@@ -112,7 +112,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold">Email</h3>
-                    <p className="text-gray-400">olovajs@gmail.com</p>
+                    <p className="text-gray-400">josephdelacruzjr4@gmail.com</p>
                   </div>
                 </div>
 
@@ -122,7 +122,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold">Location</h3>
-                    <p className="text-gray-400">Laxmipure, Natore 6400</p>
+                    <p className="text-gray-400">122 Dumlao St., Bgy. Amagna, San Felipe, Zambales</p>
                   </div>
                 </div>
               </div>

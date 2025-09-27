@@ -15,24 +15,14 @@ const EducationSection = () => {
 
   const educationData = [
     {
-      degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
+      degree: "Bachelor of Science in Information Technology",
+      school: "Columban College - Olongapo City",
       mascot: "📘",
-      year: "2019-2021",
-      achievements: ["GPA: 4.89", "Subject: Science"],
-      skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
+      year: "2019-2023",
+      achievements: ["GWA: 1.29", "Honorable Mention"],
+      skills: ["Cisco Networking", "Web Development", "Project Management", "System Analyst"],
       description:
-        "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
-    },
-    {
-      degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
-      mascot: "📗",
-      year: "2021-2023",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
-      skills: ["Literature", "Social Studies", "Economics", "History"],
-      description:
-        "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
+        "Focused on core web technologies with emphasis on building real-world projects and applying modern development methodologies.",
     },
   ];
 
@@ -59,11 +49,11 @@ const EducationSection = () => {
   };
 
   return (
-    <section className="min-h-screen relative overflow-hidden py-40 bg-[#04081A]">
+    <section className="min-h-screen relative overflow-hidden py-40 bg-[#121212]">
       {/* Grid Background */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-grid-white/[0.05] bg-[length:50px_50px]" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#04081A] via-transparent to-[#04081A]" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#121212] via-transparent to-[#121212]" />
         <div className="absolute inset-0 border border-white/[0.05] grid grid-cols-2 md:grid-cols-4" />
       </div>
 
@@ -75,11 +65,11 @@ const EducationSection = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-teal-400 to-blue-500 bg-clip-text text-transparent mb-6">
-            Educational Journey
+            Education
           </h2>
           <p className="text-gray-300 max-w-2xl mx-auto text-lg">
-            Discover how academic excellence shapes innovative thinking and
-            professional growth.
+            Exploring the evolution from curiosity to expertise, driven by code, 
+            creativity, and collaboration.
           </p>
         </motion.div>
 
@@ -87,13 +77,13 @@ const EducationSection = () => {
           variants={containerVariants}
           initial="hidden"
           animate="visible"
-          className="grid grid-cols-1 md:grid-cols-2 gap-8"
+          className="grid grid-cols-1 md:grid-cols-1 gap-8"
         >
           {educationData.map((edu, index) => (
             <motion.div
               key={index}
               variants={cardVariants}
-              className={`relative border rounded-xl p-8 transition-all duration-300 bg-gray-900/50 backdrop-blur-sm ${
+              className={`relative border rounded-xl p-8 transition-all duration-300 bg-[#121212] backdrop-blur-sm ${
                 hoveredIndex === index
                   ? "border-teal-500 scale-[1.02]"
                   : "border-blue-400/20"

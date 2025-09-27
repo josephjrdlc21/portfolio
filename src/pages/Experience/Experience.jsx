@@ -15,7 +15,7 @@ const ExperienceCard = ({
     {/* Animated gradient border */}
     <div className="absolute -inset-[2px] bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-500 rounded-lg opacity-0 group-hover:opacity-100 animate-gradient-xy transition-all duration-500" />
 
-    <div className="relative bg-gray-900/90 rounded-lg p-8 h-full border border-gray-800/50 shadow-xl backdrop-blur-xl">
+    <div className="relative bg-[#121212] rounded-lg p-8 h-full border border-gray-800/50 shadow-xl backdrop-blur-xl">
       {/* Floating icon with pulse effect */}
       <div className="relative mb-6">
         <div className="absolute -inset-4 bg-gradient-to-r from-cyan-500 to-blue-500 opacity-25 rounded-full blur-xl group-hover:opacity-75 animate-pulse transition-all duration-500" />
@@ -54,28 +54,28 @@ const ExperienceCard = ({
 const ExperienceSection = () => {
   const experiences = [
     {
-      icon: Network,
-      title: "WordPress Developer",
-      company: "Fiverr",
-      period: "2019 - 2020",
+      icon: Code2,
+      title: "Web Developer",
+      company: "Ziaplex Inc",
+      period: "Apr 2024 - Present",
       description:
-        "Worked on developing and customizing WordPress websites for clients globally.",
+        "Worked on full-stack software development by collaborating with project managers and technical leads.",
     },
     {
       icon: Layers,
-      title: "Junior Frontend Developer",
-      company: "Sera Programmer",
-      period: "2021 - 2023",
+      title: "Software Engineer",
+      company: "Wistron InfoComm Ph",
+      period: "Jun 2021 - Dec 2023",
       description:
-        "Assisted in building and optimizing user interfaces with a focus on responsive and interactive designs.",
+        "Built AI-powered desktop and web applications integrated with microcontrollers, applying computer vision research.",
     },
     {
-      icon: Code2,
-      title: "JavaScript Developer",
-      company: "OlovJS (Sera Programmer)",
-      period: "2023 - Present",
+      icon: Network,
+      title: "Programmer Intern",
+      company: "SCMS",
+      period: "Jul 2022 - Dec 2022",
       description:
-        "Contributed to developing JavaScript libraries and enhancing framework functionalities.",
+        "Performed software development tasks by providing solutions, assisting in design and testing.",
     },
   ];
 
@@ -83,7 +83,7 @@ const ExperienceSection = () => {
     <>
       <div className="min-h-screen bg-gradient-to-b relative overflow-hidden pt-32 pb-20">
         {/* Animated gradient background */}
-        <div className="absolute inset-0 bg-[#04081A]" />
+        <div className="absolute inset-0 bg-[#121212]" />
 
         {/* Grid background */}
         <div className="absolute inset-0 bg-[linear-gradient(rgba(50,50,70,0.15)_1px,transparent_1px),linear-gradient(90deg,rgba(50,50,70,0.15)_1px,transparent_1px)] bg-[size:40px_40px] [mask-image:radial-gradient(ellipse_80%_80%_at_50%_50%,#000_70%,transparent_100%)]" />
@@ -104,7 +104,7 @@ const ExperienceSection = () => {
         </div>
 
         {/* Content container */}
-        <div className="relative container mx-auto px-6 mt-10">
+        <div className="relative max-w-2xl mx-auto px-6 mt-10">
           {/* Section header with enhanced effects */}
           <div className="flex flex-col items-center space-y-8 mb-20">
             <div className="relative">
@@ -119,7 +119,7 @@ const ExperienceSection = () => {
           </div>
 
           {/* Experience grid with improved layout */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 gap-10 max-w-7xl mx-auto">
             {experiences.map((exp, index) => (
               <ExperienceCard key={index} {...exp} />
             ))}
