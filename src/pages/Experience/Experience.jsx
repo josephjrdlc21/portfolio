@@ -18,7 +18,7 @@ const ExperienceCard = ({
     <div className="relative bg-[#121212] rounded-lg p-8 h-full border border-gray-800/50 shadow-xl backdrop-blur-xl">
       {/* Floating icon with pulse effect */}
       <div className="relative mb-6">
-        <div className="absolute -inset-4 bg-gradient-to-r from-cyan-500 to-blue-500 opacity-25 rounded-full blur-xl group-hover:opacity-75 animate-pulse transition-all duration-500" />
+        <div className="absolute -inset-4 bg-gradient-to-r from-gray-900 to-gray-700 opacity-25 rounded-full blur-xl group-hover:opacity-75 animate-pulse transition-all duration-500" />
         <Icon className="w-12 h-12 text-cyan-400 relative z-10 transform group-hover:rotate-12 transition-transform duration-300" />
       </div>
 
@@ -65,7 +65,7 @@ const ExperienceSection = () => {
       icon: Layers,
       title: "Software Engineer",
       company: "Wistron InfoComm Ph",
-      period: "Jun 2021 - Dec 2023",
+      period: "Jun 2023 - Dec 2023",
       description:
         "Built AI-powered desktop and web applications integrated with microcontrollers, applying computer vision research.",
     },

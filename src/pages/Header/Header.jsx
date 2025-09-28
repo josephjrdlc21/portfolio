@@ -48,7 +48,7 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-gray-900/95 backdrop-blur-md md:bg-transparent md:backdrop-blur-none">
       <div className="md:fixed md:top-4 md:left-1/2 md:transform md:-translate-x-1/2 w-full md:w-auto">
-        <div className="p-[2px] md:rounded bg-gradient-to-r from-emerald-400 via-cyan-500 to-indigo-500 animate-gradient-x">
+        <div className="p-[2px] md:rounded bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 animate-gradient-x">
           <nav className="bg-[#121212] backdrop-blur-md md:rounded px-4 md:px-6 py-2.5">
             {/* Mobile Menu Button */}
             <div className="flex justify-between items-center md:hidden px-2">

@@ -97,7 +97,7 @@ export default function Contact() {
             {/* Contact Info */}
             <div className="space-y-8">
               <div>
-                <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+                <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-cyan-500 bg-clip-text text-transparent">
                   Get in Touch
                 </h2>
                 <p className="text-gray-300 text-lg">
@@ -107,8 +107,8 @@ export default function Contact() {
 
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
-                  <div className="bg-purple-500/10 p-3 rounded-lg">
-                    <Mail className="w-6 h-6 text-purple-400" />
+                  <div className="bg-gray-500/10 p-3 rounded-lg">
+                    <Mail className="w-6 h-6 text-gray-400" />
                   </div>
                   <div>
                     <h3 className="font-semibold">Email</h3>
@@ -117,8 +117,8 @@ export default function Contact() {
                 </div>
 
                 <div className="flex items-center space-x-4">
-                  <div className="bg-pink-500/10 p-3 rounded-lg">
-                    <MapPin className="w-6 h-6 text-pink-400" />
+                  <div className="bg-gray-500/10 p-3 rounded-lg">
+                    <MapPin className="w-6 h-6 text-gray-400" />
                   </div>
                   <div>
                     <h3 className="font-semibold">Location</h3>
@@ -209,7 +209,7 @@ export default function Contact() {
 
                 <button
                   type="submit"
-                  className="w-full bg-gradient-to-r from-blue-500 to-purple-500 text-white py-3 px-6 rounded-lg font-semibold flex items-center justify-center space-x-2 hover:opacity-90 transition-opacity"
+                  className="w-full bg-gradient-to-r from-gray-900 to-gray-700 text-white py-3 px-6 rounded-lg font-semibold flex items-center justify-center space-x-2 hover:opacity-90 transition-opacity"
                 >
                   <span>Send Message</span>
                   <Send className="w-4 h-4" />
