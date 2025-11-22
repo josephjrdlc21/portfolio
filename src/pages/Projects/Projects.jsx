@@ -3,26 +3,73 @@ import { useTransform, motion, useScroll } from "framer-motion";
 import { useRef, useEffect } from "react";
 import PropTypes from "prop-types";
 
+import Zentra from "@/assets/images/zentra.png";
+import PortfolioV2 from "@/assets/images/portfolio-v2.png";
+import PortfolioV1 from "@/assets/images/portfolio-v1.png";
+import QoutesGenerator from "@/assets/images/qoutes-generator.png";
+import Todolist from "@/assets/images/todo-list.png";
+import ExpenseTracker from "@/assets/images/expense-tracker.png";
+
 const projects = [
   {
-    title: "Olova! A Lightweight JavaScript Library",
+    title: "Zentra - Task Management System",
     description:
-      "A lightweight JavaScript library for creating beautiful, responsive UI components.",
-    src: "rock.jpg",
-    link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
+      "A streamlined task management system designed to help users efficiently organize, track, and complete their daily tasks with ease.",
+    src: "zentra.png",
+    link: Zentra,
     color: "#5196fd",
-    githubLink: "https://github.com/olovajs/olova",
-    liveLink: "https://olova.js.org/",
+    githubLink: "https://github.com/josephjrdlc21/zentra",
+    liveLink: "#",
   },
   {
     title: "A sleek portfolio built with React and Tailwind CSS ",
     description:
       "A sleek portfolio built with React and Tailwind CSS to showcase your skills, projects, and experience in a modern design.",
-    src: "tree.jpg",
-    link: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
+    src: "portfolio-v2.png",
+    link: PortfolioV2,
     color: "#8f89ff",
-    githubLink: "https://github.com/seraprogrammer/portfolio",
-    liveLink: "https://codervai.vercel.app",
+    githubLink: "https://github.com/josephjrdlc21/portfolio",
+    liveLink: "#",
+  },
+  {
+    title: "Quotes Generator",
+    description:
+      "A simple and dynamic tool that displays random inspirational quotes to motivate and uplift users.",
+    src: "qoutes-generator.png",
+    link: QoutesGenerator,
+    color: "#5196fd",
+    githubLink: "https://github.com/josephjrdlc21/quotes-generator",
+    liveLink: "https://quotes-generator-dlc.netlify.app/",
+  },
+  {
+    title: "Expense Tracker",
+    description:
+      "A straightforward app that helps users record, monitor, and manage their daily expenses to stay on top of their finances. User: user@gmail.com / Password: user",
+    src: "expense-tracker.png",
+    link: ExpenseTracker,
+    color: "#5196fd",
+    githubLink: "https://github.com/josephjrdlc21/expense-tracker",
+    liveLink: "https://main--expense-tracker-dlc.netlify.app/",
+  },
+  {
+    title: "Todo List",
+    description:
+      "A clean and intuitive app for adding, organizing, and managing daily tasks with ease.",
+    src: "todo-list.png",
+    link: Todolist,
+    color: "#5196fd",
+    githubLink: "#",
+    liveLink: "https://todolistvuejs24.netlify.app/",
+  },
+  {
+    title: "Portfolio V1",
+    description:
+      "A simple portfolio showing details about my career, experience and simple projects.",
+    src: "portfolio-v1.png",
+    link: PortfolioV1,
+    color: "#5196fd",
+    githubLink: "#",
+    liveLink: "https://main--josephjr-dlc-portfolio.netlify.app/",
   },
 ];
 

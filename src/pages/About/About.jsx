@@ -1,4 +1,4 @@
-import HeroImg from "@/assets/images/profile-portfolio.jpg";
+import HeroImg from "@/assets/images/profile-port.jpg";
 
 export default function About() {
   return (
