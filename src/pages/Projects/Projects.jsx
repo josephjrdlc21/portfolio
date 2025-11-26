@@ -19,7 +19,7 @@ const projects = [
     link: Zentra,
     color: "#5196fd",
     githubLink: "https://github.com/josephjrdlc21/zentra",
-    liveLink: "#",
+    liveLink: "https://zentra.josephdlc.com/",
   },
   {
     title: "A sleek portfolio built with React and Tailwind CSS ",
@@ -29,7 +29,7 @@ const projects = [
     link: PortfolioV2,
     color: "#8f89ff",
     githubLink: "https://github.com/josephjrdlc21/portfolio",
-    liveLink: "#",
+    liveLink: "https://portfolio.josephdlc.com/",
   },
   {
     title: "Quotes Generator",
