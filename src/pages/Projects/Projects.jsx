@@ -4,6 +4,7 @@ import { useRef, useEffect } from "react";
 import PropTypes from "prop-types";
 
 import Zentra from "@/assets/images/zentra.png";
+import Contentia from "@/assets/images/contentia.png";
 import PortfolioV2 from "@/assets/images/portfolio-v2.png";
 import PortfolioV1 from "@/assets/images/portfolio-v1.png";
 import QoutesGenerator from "@/assets/images/qoutes-generator.png";
@@ -11,6 +12,16 @@ import Todolist from "@/assets/images/todo-list.png";
 import ExpenseTracker from "@/assets/images/expense-tracker.png";
 
 const projects = [
+  {
+    title: "Contentia - Blog Application",
+    description:
+      "Contentia is a modern blog platform that allows users to create, manage, and share articles effortlessly. It offers an intuitive interface for writing, categorizing, and discovering content, making it easy for bloggers and readers to connect.",
+    src: "contentia.png",
+    link: Contentia,
+    color: "#5196fd",
+    githubLink: "https://github.com/josephjrdlc21/contentia",
+    liveLink: "https://contentia.josephdlc.com/",
+  },
   {
     title: "Zentra - Task Management System",
     description:
