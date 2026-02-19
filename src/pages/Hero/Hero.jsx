@@ -6,6 +6,7 @@ import Meteors from "@/components/ui/meteors";
 import PortfolioPage from "@/pages/About/About";
 import SparklesText from "@/components/ui/sparkles-text";
 import { FlipWords } from "@/components/ui/flip-words";
+import Resume from "@/assets/resume.pdf";
 
 // Grid Background - Replacing the HexagonBackground
 const GridBackground = () => {
@@ -40,7 +41,12 @@ const GridBackground = () => {
   );
 };
 
+const openResume = () => {
+  window.open(Resume, "_blank", "noopener,noreferrer");
+};
+
 export default function Hero() {
+
   const words = [
     "Full-Stack Developer",
     "Laravel & PHP Craftsman",
@@ -238,7 +244,9 @@ const profile = {
                 >
                   <span className="block w-full px-6 sm:px-8 py-3 sm:py-4 rounded-[11px] bg-gray-900 border border-gray-700/50 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-gray-800 group-hover:to-gray-700">
                     <span className="relative flex items-center justify-center gap-2 text-gray-300 font-medium group-hover:text-white">
-                      <span>Download Resume</span>
+                      <span onClick={openResume} style={{ cursor: "pointer" }}>
+                        Download Resume
+                      </span>
                       <i className="fas fa-envelope transform transition-all duration-300 group-hover:rotate-12"></i>
                     </span>
                   </span>
